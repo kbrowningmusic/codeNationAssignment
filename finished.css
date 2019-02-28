@@ -1,0 +1,43 @@
+.container{
+    background: lightgoldenrodyellow;
+    border: royalblue;
+}
+.contentsPage{
+    display: flexbox;
+    background: lightblue
+
+}
+.title{
+    color: blueviolet;
+    font-family: "Arial";
+    font-size-adjust: 25px;
+}
+.aboutme {
+    text-align: center;
+    display: flexbox;
+    align-content: center space-around;
+    border: 10%;
+    color: black;
+    font-family: "Arial Rounded" "Arial" sans-serif;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.projectTitle{
+    color: green;
+}
+.projectcontent {
+    display: flexbox;
+    align-content: left 10%;
+    color: #900C3F;
+    font-size: 25px;
+    font-family: "Arial" serif;
+}
+
+.projectSubtitle{
+    color: rgb(37, 93, 177)
+}
+/*h2 {
+    color: rgb(175, 71, 71);
+}
