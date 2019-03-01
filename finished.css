@@ -1,20 +1,19 @@
 
 
 .container{
-
-    
     background: lightgoldenrodyellow;
 }
-body{
-    background: url(images/clarinet\ background\ picture.jpg);
-    border-width: 100px 100px 100px 100px;
+/*body{
+    color:lightgoldenrodyellow
+
 }
 
-/*.katheadshot{
+.katheadshot{
+    align-content: center;
     display: flex;
     align-content: center;
 }
-.backgroundImage{
+/*.backgroundImage{
 
     display:flexbox;
     border:dashed
@@ -25,21 +24,20 @@ body{
 */
 
 .aboutmetitle{
-
-    color: blueviolet;
-    font-family: "Verdana";
+    color: lightblue;
+    font-family: "html";
     font-size-adjust: 25px;
 }
 
 .aboutme {
-
+    background: url(images/clarinet\ background\ picture.jpg);
+    width: 60%;
     text-align: center;
-    color: rebeccapurple;
+    color: lightcyan;
     display: flexbox;
     align-content: center space-around;
-    border: 10%;
-    font-family: "Arial Rounded" "Arial" sans-serif;
-    font-size: 20px;
+    font-family: "Verdana" serif;
+    font-size: 40px;
     margin-left: 400px;
     margin-right: 400px;
 
@@ -47,6 +45,7 @@ body{
 
 .contentsPage{
 
+    size: 25px;
     display: flexbox;
     border: solid 3px;
     justify-content: left;
