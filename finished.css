@@ -1,43 +1,102 @@
 .container{
-    background: lightgoldenrodyellow;
-    border: royalblue;
-}
-.contentsPage{
-    display: flexbox;
-    background: lightblue
 
+    background: lightgoldenrodyellow;
+    border: royalblue 10px;
 }
-.title{
+
+/*.katheadshot{
+    display: flex;
+    border: 30px 20px 30px 20px;
+}*/
+
+.aboutmetitle{
+
     color: blueviolet;
-    font-family: "Arial";
+    font-family: "Verdana";
     font-size-adjust: 25px;
 }
+
 .aboutme {
+
     text-align: center;
     display: flexbox;
     align-content: center space-around;
     border: 10%;
-    color: black;
     font-family: "Arial Rounded" "Arial" sans-serif;
     font-size: 20px;
     margin-left: 190px;
     margin-right: 190px;
 }
 
-.projectTitle{
-    color: green;
+.contentsPage{
+
+    display: flexbox;
+    
+    background: rgb(100, 171, 194);
+    width: fit-content;
+    height: fit-content;
+    line-height: 300%;
+
 }
-.projectcontent {
+
+.projectTitle{
+
+    display: flexbox;
+    position: relative;
+    color: green;
+    
+}
+
+/*.projectcontent {
     display: flexbox;
     align-content: left 10%;
     color: #900C3F;
     font-size: 25px;
     font-family: "Arial" serif;
 }
+*/
+/*1.1 */
+.describeIT {
+    display: flexbox;
+    background: paleturquoise
 
-.projectSubtitle{
-    color: rgb(37, 93, 177)
 }
-/*h2 {
-    color: rgb(175, 71, 71);
+/*1.2 - what do you need to make projects successful? what skills?*/
+.successfulProject{
+    display: flexbox;
+    background: rgb(233, 187, 203)
+
 }
+/*1.3 Plan and carry out tasks using IT – e.g. making
+your website. How will you plan it? Include a link to
+your troll board.*/
+
+.planUsingIT{
+    display: flexbox;
+    background: palegoldenrod
+
+}
+/*1.4 - Risks that impact Digital Projects*/
+
+.describeRisks{
+    display: flexbox;
+    background: lightskyblue;
+}
+
+
+/* 1.6*/
+.chosenTech{
+
+display: flexbox;
+background: peachpuff
+
+}
+
+.usefulLinks{
+
+    display: flexbox;
+    background: 
+
+}
+
+.
