@@ -1,13 +1,28 @@
+
+
 .container{
 
+    
     background: lightgoldenrodyellow;
-    border: royalblue 10px;
+}
+body{
+    background: url(images/clarinet\ background\ picture.jpg);
+    border-width: 100px 100px 100px 100px;
 }
 
 /*.katheadshot{
     display: flex;
-    border: 30px 20px 30px 20px;
-}*/
+    align-content: center;
+}
+.backgroundImage{
+
+    display:flexbox;
+    border:dashed
+}
+/*to do: 
+- figure out how to get a visible border around it
+- figure out how to get a gap between top of page and top of pic!
+*/
 
 .aboutmetitle{
 
@@ -19,19 +34,22 @@
 .aboutme {
 
     text-align: center;
+    color: rebeccapurple;
     display: flexbox;
     align-content: center space-around;
     border: 10%;
     font-family: "Arial Rounded" "Arial" sans-serif;
     font-size: 20px;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 400px;
+    margin-right: 400px;
+
 }
 
 .contentsPage{
 
     display: flexbox;
-    
+    border: solid 3px;
+    justify-content: left;
     background: rgb(100, 171, 194);
     width: fit-content;
     height: fit-content;
@@ -58,13 +76,13 @@
 /*1.1 */
 .describeIT {
     display: flexbox;
-    background: paleturquoise
+    background: rgb(154, 180, 215)
 
 }
 /*1.2 - what do you need to make projects successful? what skills?*/
 .successfulProject{
     display: flexbox;
-    background: rgb(233, 187, 203)
+    background: peachpuff
 
 }
 /*1.3 Plan and carry out tasks using IT – e.g. making
@@ -73,30 +91,41 @@ your troll board.*/
 
 .planUsingIT{
     display: flexbox;
-    background: palegoldenrod
+    background: rgb(154, 180, 215)
 
 }
 /*1.4 - Risks that impact Digital Projects*/
 
 .describeRisks{
     display: flexbox;
-    background: lightskyblue;
+    background: peachpuff;
 }
 
+/*1.5*/
+.choosingTech{
 
+    display: flexbox;
+    background: rgb(154, 180, 215)
+}
+    
 /* 1.6*/
-.chosenTech{
+.myChosenTech{
 
 display: flexbox;
 background: peachpuff
 
 }
 
-.usefulLinks{
+.GDPR{
 
     display: flexbox;
-    background: 
+    background: rgb(154, 180, 215);
 
 }
 
-.
+.usefulLinks{
+
+    display: flexbox;
+    background: paleturquoise;
+
+}
