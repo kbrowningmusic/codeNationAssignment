@@ -1,36 +1,22 @@
 
 
-.websiteContainer{
-    background: lightgoldenrodyellow;
+.backgroundImage{
+    background: images\meAndEiluned.JPG;
+    
 }
 
-/*.katheadshot{
-    align-content: center;
-    display: flex;
-    align-content: center;
-}
-/*.backgroundImage{
-
-    display:flexbox;
-    border:dashed
-}
-*/
-
-h3 {
-
-}
-
-.aboutmetitle{
+.underConstruction{
     color: lightblue;
-    font-family: "Srisakdi";
-    font-size-adjust: 25px;
+    font-family: Verdana;
+    font-size-adjust: 18px;
+    align: left;
 }
-
+}
 .aboutme {
-    background: url(images/clarinet\ background\ picture.jpg);
+
     width: 60%;
     text-align: center;
-    color: lightcyan;
+    color: grey;
     display: flexbox;
     align-content: center space-around;
 
@@ -41,76 +27,12 @@ h3 {
 
 }
 
-.contentsPage{
-
-    size: 25px;
-    display: flexbox;
-    border: solid 3px;
-    justify-content: left;
-    background: rgb(100, 171, 194);
-    width: fit-content;
-    height: fit-content;
-    line-height: 300%;
-    margin: 5% 10% 5% 10%;
-    padding: 1%;
-
-}
-
-.projectTitle{
-
-    display: flexbox;
-    position: relative;
-    background-color: white;
-    color: rgb(101, 151, 101);
-    padding: 5%;
-    
-}
-
-/*.projectcontent {
-    display: flexbox;
-    align-content: left 10%;
-    color: #900C3F;
-    font-size: 25px;
-    font-family: "Arial" serif;
-}
-*/
-/*1.1 */
-.lightBlueBackground {
-    margin: 1%;
-    padding: 5%;
-    size: 14px;
-    display: flexbox;
-    background: rgb(154, 180, 215)
-
-}
-/*1.2 - what do you need to make projects successful? what skills?*/
-.mintCreamBackground{
-    margin: 1%;
-    padding: 5%;
-    size: 14px;
-    display: flexbox;
-    background: mintcream;
-
-}
-
-.reviewContainer {
-  margin: 2% 5% 2% 5%;
-  padding: 2%;
-  background-color: #84c3be;
-}
-  /*had ideas for it to have 'shading' as a background, but it didn't work...!background-image: linear-gradient (#cb8e99, 9bce93);
-  */
-
-.questionTitle{
-  
-    font-weight:bold;
-    color:#3f41ac;
-    
+  a:link{
+      text-decoration:none;
   }
-  
-.negative{
-    
-    color:darkred;
-    size: 12px;
-    
+  a:visited{
+      text-decoration:none;
+  }
+  a:active {
+      text-decoration:purple;
   }
