@@ -1,18 +1,18 @@
 
 
-.backgroundImage{
-    background: images\meAndEiluned.JPG;
-    
+body {
+    background-color:#D0E2C8;
 }
 
 .underConstruction{
-    color: lightblue;
+    background:#F1EEF0;
+    color: #A1AD9B;
     font-family: Verdana;
     font-size-adjust: 18px;
-    align: left;
+    text-align: center;
 }
-}
-.aboutme {
+
+.aboutMe {
 
     width: 60%;
     text-align: center;
@@ -27,12 +27,29 @@
 
 }
 
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
   a:link{
+      color:#2F1A48;
+      background-color:transparent;
       text-decoration:none;
   }
   a:visited{
-      text-decoration:none;
+    color:#A1AD9B;
+    background-color:transparent;
+    text-decoration:none;
   }
   a:active {
-      text-decoration:purple;
+    color:#A1AD9B;
+    background-color:transparent;
+    text-decoration:none; 
+  }
+  a:hover{
+    text-decoration:underline;
+    background-color:lightblue;
   }
