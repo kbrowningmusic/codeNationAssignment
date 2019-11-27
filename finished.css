@@ -1,23 +1,21 @@
-.meAndEiluned{
+.meAndEilunedBackground{
     align:center;
     background:#D0E2C8;
-    background-image: url(".meAndEiluned.JPG");
+    background-image: url("C:\Users\User\Documents\GitHub\codeNationAssignment\images\meAndEiluned.JPG");
 }
 .aboutMe {
 
+    
+    background-image: url("C:\Users\User\Documents\GitHub\codeNationAssignment\images\backgroundClarinet.jpg");
     width: 60%;
-    color: A1AD9B;
-    display: flexbox;
+
+    display: flex;
     align-content: center space-around;
 
     font-family: "Verdana" serif;
     font-size: 25px;
     padding: 5%;
     margin:5% 10% 5% 10%;
-}
-
-h4 {
-    justify-content: center;
 }
 
 
@@ -29,8 +27,6 @@ h4 {
     font-size-adjust: 18px;
     text-align: center;
 }
-
-
 
 .flex-container {
     background-color:lightgrey;
